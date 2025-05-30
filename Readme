@@ -1,0 +1,46 @@
+
+🛣️ Roadside Object Detection using YOLO – Saudi Arabia Hackathon Project
+
+📌 Overview
+
+This project was developed as part of a Hackathon in Saudi Arabia, focusing on enhancing road safety and improving urban infrastructure. Using the YOLO (You Only Look Once) object detection model, we performed real-time detection and classification of roadside anomalies that can lead to accidents or public inconvenience.
+
+🎯 Objective
+
+The primary goal of this project is to reduce traffic accidents and improve public infrastructure maintenance by detecting and classifying hazardous roadside elements. Our AI-powered solution aims to assist municipalities and urban planners in identifying and resolving infrastructure issues proactively.
+
+🧠 Technology Stack
+	•	Model Used: YOLO (You Only Look Once) – for real-time object detection
+	•	Frameworks: Python, OpenCV, PyTorch (or TensorFlow, if applicable)
+	•	Dataset: Curated images from Saudi Arabia’s roads, labeled across 11 unique classes
+
+🗂️ Detected Classes
+
+We classified the detected objects into the following 11 categories:
+	1.	Graffiti
+	2.	Faded Signage
+	3.	Potholes
+	4.	Garbage
+	5.	Construction on Road
+	6.	Broken Signage
+	7.	Bad Streetlight
+	8.	Bad Billboard
+	9.	Sand on Road
+	10.	Cluttered Sidewalk
+	11.	Unkept Facade
+
+⚙️ Key Features
+	•	Real-time object detection with high accuracy
+	•	Class-wise identification for actionable insights
+	•	Scalable pipeline for further integration with traffic systems or government apps
+
+🌍 Social & Practical Impact
+	•	Accident Prevention: Timely identification of potholes, bad lighting, or construction zones can help reduce the likelihood of road accidents.
+	•	Urban Cleanliness: Detection of garbage or graffiti allows for better maintenance of public spaces.
+	•	Smart Cities: Contributes to the vision of smart city infrastructure by automating issue detection.
+
+🙋 My Contribution
+	•	Collected and preprocessed annotated datasets
+	•	Trained and fine-tuned the YOLO model for multi-class detection
+	•	Performed evaluation and improved precision-recall through data augmentation
+	•	Contributed to the deployment strategy for real-world testing
