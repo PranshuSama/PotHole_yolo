@@ -1,23 +1,23 @@
 # PotHole_yolo
 
-🛣️ Roadside Object Detection using YOLO – Saudi Arabia Hackathon Project
+🛣️ Roadside Object Detection using YOLO
 
 📌 Overview
 
-This project was developed as part of a Hackathon in Saudi Arabia, focusing on enhancing road safety and improving urban infrastructure. Using the YOLO (You Only Look Once) object detection model, we performed real-time detection and classification of roadside anomalies that can lead to accidents or public inconvenience.
+This project focuses on enhancing road safety and improving urban infrastructure through AI-powered object detection. By leveraging the YOLO (You Only Look Once) model, the system performs real-time detection and classification of various roadside anomalies that may contribute to accidents or public inconvenience.
 
 🎯 Objective
 
-The primary goal of this project is to reduce traffic accidents and improve public infrastructure maintenance by detecting and classifying hazardous roadside elements. Our AI-powered solution aims to assist municipalities and urban planners in identifying and resolving infrastructure issues proactively.
+The aim of this project is to reduce road-related hazards and assist in the timely maintenance of public infrastructure by identifying and categorizing potentially dangerous roadside elements. The solution is designed to support municipalities and urban planning bodies in proactive decision-making.
 
 🧠 Technology Stack
-	•	Model Used: YOLO (You Only Look Once) – for real-time object detection
+	•	Model: YOLO (You Only Look Once) – for real-time object detection
 	•	Frameworks: Python, OpenCV, PyTorch (or TensorFlow, if applicable)
-	•	Dataset: Curated images from Saudi Arabia’s roads, labeled across 11 unique classes
+	•	Dataset: Custom-labeled images covering diverse roadside conditions across 11 distinct classes
 
 🗂️ Detected Classes
 
-We classified the detected objects into the following 11 categories:
+The model detects and classifies the following 11 categories:
 	1.	Graffiti
 	2.	Faded Signage
 	3.	Potholes
@@ -31,17 +31,17 @@ We classified the detected objects into the following 11 categories:
 	11.	Unkept Facade
 
 ⚙️ Key Features
-	•	Real-time object detection with high accuracy
-	•	Class-wise identification for actionable insights
-	•	Scalable pipeline for further integration with traffic systems or government apps
+	•	Real-time object detection with high precision
+	•	Multi-class classification for actionable insights
+	•	Modular and scalable architecture for integration with smart traffic systems or urban monitoring tools
 
 🌍 Social & Practical Impact
-	•	Accident Prevention: Timely identification of potholes, bad lighting, or construction zones can help reduce the likelihood of road accidents.
-	•	Urban Cleanliness: Detection of garbage or graffiti allows for better maintenance of public spaces.
-	•	Smart Cities: Contributes to the vision of smart city infrastructure by automating issue detection.
+	•	Accident Prevention: Early detection of hazards like potholes or poor lighting can help reduce road accidents.
+	•	Cleaner Cities: Identifying garbage, graffiti, and clutter supports better maintenance.
+	•	Smart Infrastructure: Enables automated monitoring systems for smart cities.
 
 🙋 My Contribution
-	•	Collected and preprocessed annotated datasets
-	•	Trained and fine-tuned the YOLO model for multi-class detection
-	•	Performed evaluation and improved precision-recall through data augmentation
-	•	Contributed to the deployment strategy for real-world testing
+	•	Collected and annotated datasets for all object classes
+	•	Designed and trained the YOLO model for multi-class detection
+	•	Applied data augmentation techniques to boost model accuracy and generalization
+	•	Evaluated model performance and supported the deployment strategy for real-time use cases
